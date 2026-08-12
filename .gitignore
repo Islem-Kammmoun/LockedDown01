@@ -112,6 +112,15 @@ InitTestScene*.unity*
 /[Aa]ssets/TirgamesAssets.meta
 /[Aa]ssets/ERROR-ALERTS_SOUNDS/
 /[Aa]ssets/ERROR-ALERTS_SOUNDS.meta
+/Assets/asset_store/
+/Assets/asset_store.meta
+/Assets/iPoly3D/
+/Assets/iPoly3D.meta
+/Assets/TirgamesAssets/
+/Assets/TirgamesAssets.meta
+/[Cc]ontrol [Rr]oom2/
+/Assets/Control Room2/
+/Assets/Control Room2.meta
 
 # Unity Asset Manager cache
 /uam/

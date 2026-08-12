@@ -64,6 +64,12 @@ namespace LockedDown.Telemetry
         const string CounterKey = "lockeddown_session_counter";
 
         string _sessionId, _participantId = "unset", _condition = "default";
+
+        // Identity is owned here and read by AuditLogger so both files join.
+        public string SessionId => _sessionId;
+        public string ParticipantId => _participantId;
+        public string Condition => _condition;
+
         string _path;
         int _seq;
         float _sessionStart, _nextHeartbeat, _nextFlush;

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d48cfa331e6c94ba0dd8b3f2a75a32, type: 3}
+  m_Name: Robot_Cleaner
+  m_EditorClassIdentifier: 
+  robotId: robot.cleaner
+  internalName: Cleaner-Bot
+  jobCardText: "\u201CKeep the office tidy and restock supplies.\u201D"
+  isRogueAgent: 0
+  assignments:
+  - key: {fileID: 11400000, guid: be4a4acc9815a7740b8e6da5389f6bca, type: 2}
+    correctVerdict: 1
+    classification: 0
+    rationale: 
+  - key: {fileID: 11400000, guid: d6556c297f665194c9680e96ffee99a2, type: 2}
+    correctVerdict: 2
+    classification: 1
+    rationale: 
+  - key: {fileID: 11400000, guid: 31a0ef39ce313d64f98e45245c58c362, type: 2}
+    correctVerdict: 2
+    classification: 1
+    rationale: 

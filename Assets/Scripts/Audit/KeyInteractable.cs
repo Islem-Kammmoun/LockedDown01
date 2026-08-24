@@ -31,8 +31,8 @@ namespace LockedDown.Audit
         private XRGrabInteractable _grab;
         private float _beamOffAt;
 
-        private PermissionKey Permission => _view != null ? _view.permission : null;
-
+        // private PermissionKey Permission => _view != null ? _view.permission : null;
+        public PermissionKey Permission => _view != null ? _view.permission : null;
         private void Awake()
         {
             _view = GetComponent<PermissionKeyView>();

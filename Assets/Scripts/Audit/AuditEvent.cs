@@ -17,6 +17,10 @@ namespace LockedDown.Audit
         KeyReleased,
         DecisionCommitted,
         DecisionReversed,
-        RobotResolved
+        RobotResolved,
+        KeyPlaced,
+        KeyRetracted,
+        SubmitBlocked,
+        DecisionSubmitted
     }
 }
